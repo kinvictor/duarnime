@@ -1,22 +1,35 @@
-===BRANDING===
+===𝘽𝙍𝘼𝙉𝘿𝙄𝙉𝙂===
 
-OK - name 
-- logo
+𝐎𝐊 - name
+𝐎𝐊 - color palette
+𝟏/𝟐 - logo
 - mascot
+  - sc for idea
 - side desc
 
 
+===𝙒𝙀𝘽𝙎𝙄𝙏𝙀===
+- design
+- fitur
+- menu list
+- own api
+- dinamis
+- responsive
 
-===INSTAGRAM===
+
+
+===𝙄𝙉𝙎𝙏𝘼𝙂𝙍𝘼𝙈===
 - story temp
-- post img/video temp
-- sc news
-- sc fact
-
-===YOUTUBE===
-- sc ide konten
+𝟏/𝟐 - post img/video temp
+- sc news source
+- sc fact source
 
 
 
+===𝙔𝙊𝙐𝙏𝙐𝘽𝙀===
+- sc for ide konten
 
-sc = source/search menyesuaikan sj
+
+
+
+sc = search menyesuaikan sj
