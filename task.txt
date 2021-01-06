@@ -18,18 +18,21 @@
 - own api
 - dinamis
 - responsive
-
+- host video
+- host file
+- ads
+- short link earn money
 
 
 ===𝙄𝙉𝙎𝙏𝘼𝙂𝙍𝘼𝙈===
 - story temp
 𝐎𝐊 - post img temp
 - post vid temp
-- sc news source
-- sc fact source
+- sc news source + foto (adm)
+- sc fact source + foto (adm)
 - tag category + gradient
-- caption post
-- 
+- caption post template
+- paid promote
 
 
 ===𝙔𝙊𝙐𝙏𝙐𝘽𝙀===
