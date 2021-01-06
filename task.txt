@@ -10,7 +10,11 @@
 ===𝙒𝙀𝘽𝙎𝙄𝙏𝙀===
 - design
 - fitur
-- menu list
+- nav menu list
+- gradient slash
+- user experience
+- hosting
+- domain
 - own api
 - dinamis
 - responsive
@@ -23,12 +27,14 @@
 - post vid temp
 - sc news source
 - sc fact source
-- tag menu + color gradient 
+- tag category + gradient
+- caption post
 - 
 
 
 ===𝙔𝙊𝙐𝙏𝙐𝘽𝙀===
 - sc for ide konten
+
 
 
 
