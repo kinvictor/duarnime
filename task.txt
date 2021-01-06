@@ -1,5 +1,4 @@
 ===𝘽𝙍𝘼𝙉𝘿𝙄𝙉𝙂===
-
 𝐎𝐊 - name
 𝐎𝐊 - color palette
 𝟏/𝟐 - logo
@@ -20,10 +19,12 @@
 
 ===𝙄𝙉𝙎𝙏𝘼𝙂𝙍𝘼𝙈===
 - story temp
-𝟏/𝟐 - post img/video temp
+𝐎𝐊 - post img temp
+- post vid temp
 - sc news source
 - sc fact source
-
+- tag menu + color gradient 
+- 
 
 
 ===𝙔𝙊𝙐𝙏𝙐𝘽𝙀===
