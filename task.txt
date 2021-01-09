@@ -29,10 +29,9 @@
 - story temp
 𝐎𝐊 - post img temp
 - post vid temp
-- sc news source + foto (job)
-- sc fact source + foto (job)
 - tag category + gradient
-- caption post template
+- caption post
+- tag research
 
 
 
@@ -45,6 +44,14 @@
 - sc for ide konten
 
 
+
+
+
+job konten : 
+- 2 adm news 
+- 1 adm fact
+- meme = all adm
+ada saran konten? :3
 
 
 
