@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #14213d;
+    /* border: 1px solid red; */
+}
+
+a {
+    text-decoration: none;
+    color: #14213d ;
+}
+
+a:hover {
+    color: #27437e;
+}
+
+
+nav {
+    padding: 20px 0;
+    background-color: rgba(229, 229, 229, 0.50);
+
+}
+.navbar2 {
+    background-color: #e5e5e5;
+} 
+
+
+/* START BASIC CONTENT */
+
+.content-group {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.base-button, .acc-btn {
+    width: 100%;
+    border-radius: 20px !important;
+    box-shadow: 0px 0px 15px 0px rgba(199, 118, 118, 0.55);
+    background : #FCA311;
+    padding: 11px 0px;
+    font-weight: bold;
+    border: none;
+    transition: background .5s linear;
+}
+
+.base-button:hover, .small-base-btn:hover, .base-button2:hover, .acc-active, .acc-body, .acc-btn:hover, .acc-active, .acc-content {
+    background: linear-gradient(90deg, rgba(20,33,61,1) 30%, rgba(252,163,17,1) 100%) ;
+    color: white;
+    box-shadow: 0px 0px 0px 0px white;
+}
+
+.base-button2 {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px rgba(199, 118, 118, 0.5);
+    background :transparent;
+    border: 2px solid #FCA311;
+    padding: 5px 0px;
+    transition: background .5s linear;
+}
+.base-button2:hover {
+    background: #FCA311;
+}
+.small-base-btn {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(199, 118, 118, 0.35);
+    background : #FCA311;
+    padding: 8px 10px;
+    border: none;
+    transition: background .5s linear;
+}
+
+/* END BASIC CONTENT */
+
+
+
+
+.verti-title-col {
+    display: flex;
+    align-items: center;
+}
+.cover-verti {
+    width: 155px;
+    margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+/* START MAIN NAV */
+.master-nav {
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 1.2em;
+    position: fixed;
+    width: 100%;
+    transition: 1s;
+}
+
+.master-nav > img {
+    /* logo */
+    width: 58px;
+}
+
+.master-nav.scrolling {
+    padding: 8px 0;
+    background: #e5e5e5;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav {
+    text-decoration: none;
+    color: #e5e5e5;
+    padding: 0 5px;
+    
+}
+.nav:hover {
+    border-bottom: 2px solid #fca311;
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+
+.nav.scrolling-text{
+    color: black;
+}
+
+.ham-btn {
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.ham-btn input {
+    position: absolute;
+    transform: scale(2);
+    top: 3px;
+    left: 5px;
+    opacity: 0;
+    z-index: 2;
+
+}
+
+.ham-btn span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background: #fca311;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+
+/* BURGER ANI */
+.ham-btn input:checked ~ span:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.ham-btn input:checked ~ span:last-child {
+    transform: rotate(-45deg) translate(-1px, 1px);
+}
+
+.ham-btn input:checked ~ span:nth-child(3) {
+    transform: scale(0);
+}
+
+.ham-btn span:nth-child(2) {
+    transform-origin: 0 0;
+}
+
+.ham-btn span:last-child {
+    transform-origin: 0 100%;
+}
+
+
+
+/* BREAKPOINTS */
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    
+}
+
+
+/* hape */
+@media screen and (max-width: 576px) {
+
+}
+
+/* END MAIN NAV */
+
+
+/* START ACCORDION */
+
+.acc-container {
+    margin:50px auto;
+}
+
+.acc-btn:after {
+    font-family: FontAwesome;
+    content: ' \f107';
+}
+
+.acc-btn.acc-active:after {
+    content: ' \f106';
+}
+
+.acc-content {
+    width: 95%;
+    margin: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    z-index: -1;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.acc-content > * {
+    padding: 10px;
+    color: white;
+    text-align: center !important;
+}
+
+.acc-content2 {
+    display: block;
+}
+
+/* END ACCORDION */
+
+
+
+
+/* START LIST COVER */
+.master-list {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.base-list img {
+    width: 140px;
+}
+
+/* END LIST COVER */
+
+
+
+
+
+/* START CARD */
+
+.base-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.base-card img {
+    height: 100px;
+    border-radius: 10px;
+}
+
+.master-card {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* END CARD */
+
+
+
+
+
+/* START SIDE */
+.master-side {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.side {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.side img {
+    width: 75px;
+}
+/* END SIDE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HAPE */
+@media (max-width: 576px) {
+
+.base-button, .acc-btn {
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 15px 0px rgba(199, 118, 118, 0.50);
+    padding: 5px 0;
+}
+
+
+
+/* START CARD */
+.base-card img {
+    height: 80px;
+}
+
+.master-card {
+    display: flex;
+    gap: 10px;
+}
+/* END CARD */
+
+
+/* START LIST COVER */
+.base-list img {
+    width: 80px;
+}
+/* END LIST COVER */
+
+
+/* START MAIN NAV */
+.ham-btn {
+    display: flex;
+}
+
+.nav-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background: inherit;
+    color: inherit;
+    z-index: -1;
+    transform: translateX(100%);
+    transition: all 1s;
+    opacity: 0;
+
+}
+
+.nav-menu.dor {
+    transform: translate(0);
+    opacity: 1;
+}
+/* END MAIN NAV */
+
+
+
+}
+
+
+
+
+
+
+
+/* TABLET */
+@media (max-width: 768px) {
+    .nav-menu {
+        width: 50%;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* LAPTOP MINI */
+@media (max-width: 992px) {
+/* START CARD */
+.base-card {
+    gap: 10px;
+}
+
+.master-card {
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* END CARD */
+
+
+
+/* START LIST COVER */
+.master-list {
+    overflow-x: hidden;
+}
+
+.base-list img {
+    width: 100px;
+}
+
+/* END LIST COVER */
+
+
+}
