@@ -4,7 +4,7 @@ const nav = document.querySelectorAll('.nav');
 const navmenu = document.querySelector('.nav-menu');
 
 window.addEventListener('scroll', function(){
-    navbar.classList.toggle('scrolling', window.scrollY > 200);
+    navbar.classList.toggle('scrolling', window.scrollY > 100);
     for(let i = 0; i < nav.length; i++) {
         nav[i].classList.toggle('scrolling-text', window.scrollY > 200);
     }

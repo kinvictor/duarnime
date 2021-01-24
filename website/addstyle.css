@@ -110,6 +110,7 @@ nav {
     position: fixed;
     width: 100%;
     transition: 1s;
+    z-index: 99;
 }
 
 .master-nav > img {
@@ -128,21 +129,21 @@ nav {
     align-items: center;
 }
 
-.nav {
+.nav-menu .nav {
     text-decoration: none;
     color: #e5e5e5;
     padding: 0 5px;
     
 }
-.nav:hover {
+.nav-menu .nav:hover {
     border-bottom: 2px solid #fca311;
     transform: scale(1.2);
     transition: all .5s;
 }
 
 
-.nav.scrolling-text{
-    color: black;
+.nav-menu .nav.scrolling-text{
+    color: #14213d;
 }
 
 .ham-btn {
@@ -372,8 +373,8 @@ nav {
 
 .base-button, .acc-btn {
     border-radius: 10px !important;
-    box-shadow: 0px 0px 15px 0px rgba(199, 118, 118, 0.50);
-    padding: 5px 0;
+    box-shadow: 0px 0px 15px 0px rgba(20, 16, 16, 0.5);
+    padding: 8px 0;
 }
 
 
@@ -442,6 +443,9 @@ nav {
         width: 50%;
     }
 
+    .mmaster-side {
+        display: none;
+    }
 
 
 }
