@@ -3,6 +3,7 @@
 *{
     font-family: 'Poppins', sans-serif;
     color: #14213d;
+    font-size: .99em;
     /* border: 1px solid red; */
 }
 
@@ -195,21 +196,6 @@ nav {
     transform-origin: 0 100%;
 }
 
-
-
-/* BREAKPOINTS */
-
-/* tablet */
-@media screen and (max-width: 768px) {
-    
-}
-
-
-/* hape */
-@media screen and (max-width: 576px) {
-
-}
-
 /* END MAIN NAV */
 
 
@@ -311,7 +297,19 @@ nav {
 
 
 
+/* START DETAIL */
+.cover-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.sekilas-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* END DETAIL */
 
 
 
@@ -443,9 +441,7 @@ nav {
         width: 50%;
     }
 
-    .mmaster-side {
-        display: none;
-    }
+
 
 
 }
@@ -460,6 +456,10 @@ nav {
 
 /* LAPTOP MINI */
 @media (max-width: 992px) {
+.mmaster-side {
+    display: none;
+}
+    
 /* START CARD */
 .base-card {
     gap: 10px;
