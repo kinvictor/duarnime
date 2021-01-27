@@ -41,43 +41,44 @@ nav {
 }
 
 
-.base-button, .acc-btn {
+.base-button, .acc-btn, .base-button2 {
     width: 100%;
-    border-radius: 20px !important;
-    box-shadow: 0px 0px 15px 0px rgba(199, 118, 118, 0.55);
-    background : #FCA311;
-    padding: 11px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(252,163,17,0.5);
+    border: 2px solid #fca311;
+    background: white;
     font-weight: bold;
     border: none;
     transition: background .5s linear;
 }
 
-.base-button:hover, .small-base-btn:hover, .base-button2:hover, .acc-active, .acc-body, .acc-btn:hover, .acc-active, .acc-content {
-    /* background: linear-gradient(90deg, rgba(20,33,61,1) 30%, rgba(252,163,17,1) 100%) ; */
-    background: linear-gradient(90deg, rgba(20,33,61,1) 0%, rgba(252,163,17,1) 50%, rgba(20,33,61,1) 100%); 
-    /* color: white; */
-    box-shadow: 0px 0px 0px 0px white;
+.base-button:hover, .acc-active, .acc-body, .acc-btn:hover, .acc-active, .acc-content, .acc-content2, .acc-content > p {
+    background: linear-gradient(90deg, rgba(20,33,61,1) 30%, rgba(252,163,17,1) 100%);
+    color: white;
+}
+.base-button, .acc-btn {
+    padding: 11px 0px;
 }
 
 .base-button2 {
-    width: 100%;
-    border-radius: 20px;
-    box-shadow: 0px 0px 15px 0px rgba(199, 118, 118, 0.5);
-    background :transparent;
-    border: 2px solid #FCA311;
     padding: 5px 0px;
-    transition: background .5s linear;
 }
 .base-button2:hover {
-    background: #FCA311;
+    background: #fca311;
+    color: white;
 }
 .small-base-btn {
     border-radius: 10px;
-    box-shadow: 0px 0px 15px 0px rgba(199, 118, 118, 0.35);
-    background : #FCA311;
+    box-shadow: 0px 0px 10px 0px rgba(252,163,17,0.3);
+    background : #fca311;
     padding: 8px 10px;
     border: none;
     transition: background .5s linear;
+}
+
+.small-base-btn:hover {
+    background: #14213d;
+    color: white;
 }
 
 /* END BASIC CONTENT */
