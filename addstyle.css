@@ -330,12 +330,14 @@ nav {
 
 .col1 a, .col2 ul li a {
     padding-bottom: 5px;
-}
-
-.footer .col1 a, .col2 ul li a {
     text-decoration: none;
     display: block;
     color: inherit;
+}
+
+
+.col1 a:hover, .col2 ul li a:hover {
+    color: #fca311;
 }
 
 .mini-footer {
